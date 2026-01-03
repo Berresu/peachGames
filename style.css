@@ -29,6 +29,11 @@ body{
     padding-left: 3vh;
 }
 
+#header > p > a{
+    text-decoration: none;
+    color: white;
+}
+
 #menu > ul{
     display: flex;
     justify-content: space-between;
@@ -49,6 +54,11 @@ body{
     font-weight: bold;
     font-style: italic;
     font-size: 2.5vh;
+}
+
+#menu > ul > li > a:hover > p{
+    color: #885C5C;
+    font-size: 2.7vh;
 }
 
 #icerikMetin > #buyukYazi{
